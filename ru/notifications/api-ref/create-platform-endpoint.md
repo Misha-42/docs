@@ -1,6 +1,6 @@
 # Действие CreatePlatformEndpoint
 
-Создает [эндпоинт для Push-уведомлений](../concepts/index.md#mobile-endpoints) (подписывает пользователя на Push-уведомления).
+Создает [эндпоинт для Push-уведомлений](../concepts/index.md) (подписывает пользователя на Push-уведомления).
 
 ## HTTP-запрос {#request}
 
