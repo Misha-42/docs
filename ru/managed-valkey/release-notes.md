@@ -93,7 +93,7 @@ description: В разделе представлена история изме�
 ## I квартал 2023 {#q1-2023}
 
 * Доступна новая версия Redis 7.0. Информация об изменениях приведена в [документации Redis](https://raw.githubusercontent.com/redis/redis/7.0/00-RELEASENOTES).
-* Добавлена интеграция агента `rdsync`, повышающего [отказоустойчивость](concepts/replication.md#availability) кластеров с Redis версии 7.0.
+* Добавлена интеграция агента `rdsync`, повышающего [отказоустойчивость](concepts/replication.md) кластеров с Redis версии 7.0.
 
 ## II квартал 2022 {#q2-2022}
 
