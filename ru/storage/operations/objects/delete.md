@@ -307,7 +307,7 @@ description: Следуя данной инструкции, вы сможете
      * `object_lock_retain_until_date` — дата и время окончания временной блокировки в любом из форматов, описанных в [стандарте HTTP](https://www.rfc-editor.org/rfc/rfc9110#name-date-time-formats). Например, `Mon, 12 Dec 2022 09:00:00 GMT`.
 
      * `object_lock_legal_hold_status` — статус [бессрочной блокировки](../../concepts/object-lock.md#types):
-       * `ON` — включена. Удалить версию объекта нельзя. [Снять блокировку](edit-object-lock.md#remove-legal-hold) может пользователь с ролью `storage.uploader`.
+       * `ON` — включена. Удалить версию объекта нельзя. [Снять блокировку](edit-object-lock.md#edit-legal-hold) может пользователь с ролью `storage.uploader`.
        * `OFF` — выключена.
 
      Если на версии объекта нет блокировки, эти поля не отобразятся, и версию объекта можно удалить по [инструкции по удалению версии без блокировки](#wo-object-lock).
@@ -376,7 +376,7 @@ description: Следуя данной инструкции, вы сможете
      * `ObjectLockRetainUntilDate` — дата и время окончания временной блокировки в любом из форматов, описанных в [стандарте HTTP](https://www.rfc-editor.org/rfc/rfc9110#name-date-time-formats). Например, `Mon, 12 Dec 2022 09:00:00 GMT`.
 
      * `ObjectLockLegalHoldStatus` — статус [бессрочной блокировки](../../concepts/object-lock.md#types):
-       * `ON` — включена. Удалить версию объекта нельзя. [Снять блокировку](edit-object-lock.md#remove-legal-hold) может пользователь с ролью `storage.uploader`.
+       * `ON` — включена. Удалить версию объекта нельзя. [Снять блокировку](edit-object-lock.md#edit-legal-hold) может пользователь с ролью `storage.uploader`.
        * `OFF` — выключена.
 
      Если на версии объекта нет блокировки, эти поля не отобразятся, и версию объекта можно удалить по [инструкции по удалению версии без блокировки](#wo-object-lock).
