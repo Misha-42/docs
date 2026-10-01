@@ -42,7 +42,7 @@ description: В разделе представлена история изме�
 
 * В модуле [{{ cspm-name }}](./concepts/cspm.md) появился новый [набор правил](./concepts/standard-compliance/yc-gost-57580.md) на соответствие стандарту ГОСТ Р 57580 — национальному стандарту безопасности банковских и финансовых операций. 
 * В модуле [{{ dspm-name }}](./concepts/dspm.md) появилась возможность создавать [области сканирования](./operations/dspm/create-data-source.md#change-scaning) из результатов предварительного анализа и непрерывно [отслеживать](./concepts/dspm.md#change-scaning) области на предмет появления или изменения чувствительных данных.  
-* Расширилась тарифная сетка — теперь вы можете приобрести ежемесячную [подписку](pricing.md#starter-pricing) на модули [{{ cspm-name }}](./concepts/cspm.md) и [Threat Detection](./concepts/threat-detector.md).
+* Расширилась тарифная сетка — теперь вы можете приобрести ежемесячную [подписку](pricing.md#starter-rules) на модули [{{ cspm-name }}](./concepts/cspm.md) и [Threat Detection](./concepts/threat-detector.md).
 * Все [ошибки](./diagnostics/index.md) модулей теперь отображаются в общем интерфейсе ошибок.
 * Функциональность поиска чувствительных данных на дисках {{ yandex-360 }} с помощью модуля [{{ dspm-name }}](./concepts/dspm.md) стала доступна всем пользователям. Ранее функциональность была доступна только по запросу.
 
@@ -64,7 +64,7 @@ description: В разделе представлена история изме�
 ## Февраль 2026 {#february-2026}
 
 * Модули [{{ dspm-name }}](./concepts/dspm.md), [{{ cspm-name }}](./concepts/cspm.md), [{{ kspm-name }}](./concepts/kspm.md) и [AI-ассистент](concepts/ai-assistant.md) стали доступны на стадии [Preview](../overview/concepts/launch-stages.md).
-* С 2 февраля 2025 года использование модуля [{{ kspm-name }}](./concepts/kspm.md) тарифицируется в соответствии с [правилами тарификации](pricing.md#kspm-rules).
+* С 2 февраля 2025 года использование модуля [{{ kspm-name }}](./concepts/kspm.md) тарифицируется в соответствии с [правилами тарификации](pricing.md#modules-rules).
 * В модуле [{{ cspm-name }}](./concepts/cspm.md) поддержаны новые [стандарты безопасности](./concepts/cspm.md#standards) — PCI DSS (Payment Card Industry Data Security Standard) и Требования ФСТЭК (Приказ № 21) для защиты персональных данных. 
 * В модуле [{{ cspm-name }}](./concepts/cspm.md) реализованы новые правила соответствия всем поддержанным в модуле стандартам безопасности.
 
@@ -75,7 +75,7 @@ description: В разделе представлена история изме�
 ## IV квартал 2025 {#q4-2025}
 
 * Добавлена поддержка дисков [{{ yandex-360 }}](https://360.yandex.ru/) как [источника сканирования](./operations/dspm/create-scan.md#yandex-360) в {{ dspm-name }}.
-* Сканирование изображений в модуле [{{ dspm-name }}](./concepts/dspm.md) теперь тарифицируется в соответствии с [правилами тарификации](pricing.md#dspm-rules).
+* Сканирование изображений в модуле [{{ dspm-name }}](./concepts/dspm.md) теперь тарифицируется в соответствии с [правилами тарификации](pricing.md#modules-rules).
 * Добавлен [интерфейс проверки соответствия требованиям](./concepts/standard-compliance/index.md).
 
 ## III квартал 2025 {#q3-2025}
