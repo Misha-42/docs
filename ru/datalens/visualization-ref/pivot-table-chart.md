@@ -104,7 +104,7 @@ description: Из статьи вы узнаете, как в {{ datalens-full-n
 
 {% note info %}
 
-Не поддерживается в [QL-чартах](../concepts/chart/index.md#sql-charts).
+Не поддерживается в [QL-чартах](../concepts/chart/index.md).
 
 {% endnote %}
 
