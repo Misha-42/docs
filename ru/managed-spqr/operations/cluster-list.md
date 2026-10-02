@@ -156,7 +156,7 @@ description: Вы можете запросить детальную инфор�
 
      {% include [cluster-id-standard](../../_includes/managed-spqr/cluster-id-standard.md) %}
 
-  1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/grpc/Cluster/create.md#yandex.cloud.mdb.spqr.v1.Cluster).
+  1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/grpc/Cluster/create.md#yandex.cloud.operation.Operation).
 
 {% endlist %}
 
