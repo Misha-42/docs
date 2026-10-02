@@ -60,7 +60,7 @@
             --url 'https://{{ api-host-mdb }}/managed-mysql/v1/versions'
         ```
 
-    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Versions/list.md#responses).
+    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Versions/list.md#yandex.cloud.mdb.mysql.v1.ListVersionsResponse).
 
 - gRPC API {#grpc-api}
 
