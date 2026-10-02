@@ -490,7 +490,7 @@
 
        Идентификатор кластера можно запросить со [списком кластеров в каталоге](cluster-list.md#list-clusters).
 
-    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Connector/list.md#yandex.cloud.operation.Operation).
+    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Connector/list.md#yandex.cloud.mdb.kafka.v1.ListConnectorsResponse).
 
 - gRPC API {#grpc-api}
 

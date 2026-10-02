@@ -38,7 +38,7 @@ description: Следуя этой инструкции, вы сможете о�
             --url 'https://{{ api-host-mdb }}/managed-kafka/v1/versions'
         ```
 
-    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Versions/list.md#responses).
+    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Versions/list.md#yandex.cloud.mdb.kafka.v1.ListVersionsResponse).
 
 - gRPC API {#grpc-api}
 

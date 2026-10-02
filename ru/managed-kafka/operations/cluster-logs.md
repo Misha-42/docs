@@ -199,7 +199,7 @@
 
         * `filter` — фильтр логов. Можно отфильтровать логи так, чтобы поток логов содержал только нужные логи.
 
-            Подробнее о фильтрах и их синтаксисе в [справочнике API](../api-ref/Cluster/streamLogs.md#query_params).
+            Подробнее о фильтрах и их синтаксисе в [справочнике API](../api-ref/Cluster/streamLogs.md#yandex.cloud.mdb.kafka.v1.StreamClusterLogsRequest).
 
             {% include [stream-logs-filter](../../_includes/mdb/api/stream-logs-filter.md) %}
 
