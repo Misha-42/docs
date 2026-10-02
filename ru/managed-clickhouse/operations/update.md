@@ -179,7 +179,7 @@ description: Следуя данной инструкции, вы сможете
                 --url 'https://{{ api-host-mdb }}/managed-clickhouse/v1/resourcePresets'
             ```
 
-        1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/ResourcePreset/list.md#responses).
+        1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/ResourcePreset/list.md#yandex.cloud.mdb.clickhouse.v1.ListResourcePresetsResponse).
 
     1. Измените класс хостов на нужный:
 

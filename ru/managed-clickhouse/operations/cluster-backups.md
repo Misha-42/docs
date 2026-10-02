@@ -69,7 +69,7 @@ description: Вы можете создавать резервные копии 
 
         Идентификатор кластера можно запросить со [списком кластеров в каталоге](./cluster-list.md#list-clusters).
 
-    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Cluster/backup.md#responses).
+    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Cluster/backup.md#yandex.cloud.operation.Operation).
 
 - gRPC API {#grpc-api}
 
@@ -420,7 +420,7 @@ description: Вы можете создавать резервные копии 
                 --data "@body.json"
             ```
 
-    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Cluster/restore.md#responses).
+    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Cluster/restore.md#yandex.cloud.operation.Operation).
 
 - gRPC API {#grpc-api}
 
@@ -625,7 +625,7 @@ description: Вы можете создавать резервные копии 
 
             Идентификатор кластера можно запросить со [списком кластеров в каталоге](./cluster-list.md#list-clusters).
 
-        1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Cluster/listBackups.md#responses).
+        1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Cluster/listBackups.md#yandex.cloud.mdb.clickhouse.v1.ListClusterBackupsResponse).
 
     1. Чтобы получить список резервных копий всех кластеров {{ CH }} в каталоге:
 
@@ -643,7 +643,7 @@ description: Вы можете создавать резервные копии 
             Идентификатор каталога можно запросить со [списком каталогов в облаке](../../resource-manager/operations/folder/get-id.md).
 
 
-        1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Backup/list.md#responses).
+        1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Backup/list.md#yandex.cloud.mdb.clickhouse.v1.ListBackupsResponse).
 
 - gRPC API {#grpc-api}
 
@@ -748,7 +748,7 @@ description: Вы можете создавать резервные копии 
 
         Идентификатор кластера и идентификатор резервной копии можно получить со [списком резервных копий](#list-backups).
 
-    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Backup/get.md#responses).
+    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Backup/get.md#yandex.cloud.mdb.clickhouse.v1.Backup).
 
 - gRPC API {#grpc-api}
 
@@ -842,7 +842,7 @@ description: Вы можете создавать резервные копии 
 
         Идентификатор кластера можно запросить со [списком кластеров в каталоге](./cluster-list.md#list-clusters).
 
-    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Cluster/update.md#responses).
+    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Cluster/update.md#yandex.cloud.operation.Operation).
 
 - gRPC API {#grpc-api}
 

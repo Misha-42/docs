@@ -44,7 +44,7 @@ description: Следуя данной инструкции, вы сможете
             --url 'https://{{ api-host-mdb }}/managed-clickhouse/v1/versions'
         ```
 
-    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Versions/list.md#responses).
+    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Versions/list.md#yandex.cloud.mdb.clickhouse.v1.ListVersionsResponse).
 
 - gRPC API {#grpc-api}
 
@@ -187,7 +187,7 @@ description: Следуя данной инструкции, вы сможете
 
         Идентификатор кластера можно запросить со [списком кластеров в каталоге](./cluster-list.md#list-clusters).
 
-    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Cluster/update.md#responses).
+    1. Убедитесь, что запрос был выполнен успешно, изучив [ответ сервера](../api-ref/Cluster/update.md#yandex.cloud.operation.Operation).
 
 - gRPC API {#grpc-api}
 
