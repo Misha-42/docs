@@ -216,7 +216,7 @@
 
         * `filter` — фильтр логов, например: `message.hostname='node1.{{ dns-zone }}'`.
 
-            Подробнее о фильтрах и их синтаксисе читайте в [справочнике API](../api-ref/Cluster/streamLogs.md#query_params).
+            Подробнее о фильтрах и их синтаксисе читайте в [справочнике API](../api-ref/Cluster/streamLogs.md#yandex.cloud.mdb.redis.v1.StreamClusterLogsRequest).
 
         Идентификатор кластера можно запросить со [списком кластеров в каталоге](cluster-list.md#list-clusters).
 
